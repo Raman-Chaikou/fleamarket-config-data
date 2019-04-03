@@ -8,4 +8,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://fleamarket-eureka-server.cfapps.io
+      defaultZone: http://fleamarket-eureka-server.cfapps.io/eureka
