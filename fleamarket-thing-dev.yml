@@ -7,4 +7,5 @@ spring:
       ddl-auto: create
 eureka:
   client:
-    service-url: http://fleamarket-eureka-server.cfapps.io
+    serviceUrl:
+      defaultZone: http://fleamarket-eureka-server.cfapps.io
