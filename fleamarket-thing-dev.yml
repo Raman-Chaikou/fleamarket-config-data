@@ -9,5 +9,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://fleamarket-eureka-server.cfapps.io/eureka
-  instance:
-    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
