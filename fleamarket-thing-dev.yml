@@ -8,4 +8,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://fleamarket-eureka-server.cfapps.io/eureka
+      defaultZone: ${vcap.services.service-registry.credentials.uri:http://localhost:8282}/eureka
