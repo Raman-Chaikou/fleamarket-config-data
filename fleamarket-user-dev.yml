@@ -1,7 +1,7 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
 lucky:
   word: Rabbit's Foot
 eureka:
