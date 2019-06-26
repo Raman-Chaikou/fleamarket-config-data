@@ -1,0 +1,9 @@
+---
+zuul:
+  routes:
+    users:
+      path: /users/**
+      serviceId: fleamarket-user
+    things:
+      path: /things/**
+      serviceId: fleamarket-thing
